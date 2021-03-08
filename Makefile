@@ -1,9 +1,9 @@
 # crc32 Makefile
 
 LDFLAGS=
-CFLAGS=-std=gnu99 -W -Wall -Wextra -O3
+CFLAGS=-std=gnu99 -W -Wall -Wextra -Os
 # -DDEBUG
-STRIP=strip
+#STRIP=strip
 RM=rm -f
 
 BINARY=crc32
